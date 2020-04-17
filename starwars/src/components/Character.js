@@ -53,6 +53,9 @@ const Character = props => {
                 <p><span>Species:</span> {props.character.species}</p>
                 <p><span>Gender:</span> {props.character.gender}</p>
                 <p><span>Status:</span> {props.character.status}</p>
+                <p><span>Origin:</span> {props.character.origin.name}</p>
+                <p><span>Episodes:</span> {props.character.episode.length}</p>
+                {/* <p><span>Current Location:</span> {props.character.location.name}</p> */}
             </div>
         </Display>
     )
