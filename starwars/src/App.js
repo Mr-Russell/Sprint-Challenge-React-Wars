@@ -16,7 +16,7 @@ const App = () => {
   useEffect(()=>{
     axios.get('https://rickandmortyapi.com/api/character/')
     .then(res =>{
-      console.log(res.data.results)
+      console.log(res)
       setCharacters(res.data.results)
     })
     .catch(err =>{
